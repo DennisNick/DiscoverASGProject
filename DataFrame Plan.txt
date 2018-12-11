@@ -1,0 +1,17 @@
+Dataframe with:
+Each row has the 
+ - "region" aka the regions from B.1-6
+ - the difference in the "insured at the time of the survey" from 2017-2017
+	- See "2017-MHIS-Detailed-Tables" B.1-6 
+	- "delta_insured_percent" one column as change in percentage 
+	- "delta_insured_population" one as change in number of people
+
+advertising data:
+ - "adv_window_reach" the number of people reached by window signs in each region 
+	- Dennis made a python file which did this 
+	- See "Health Connector April Report" sheet "Community Engagement" columns B & N
+ - "adv_broadcast_impressions" the number of impressions by digital/broadcast media in each region 
+	- See above file, sheet "Digital and Broadcast Media". 
+	- Do the math to figure out which impressions come from which cities, then assign those impressions into the right region.
+
+ - "income" a1-5. Combine the  two columns below 300% and put that number.
